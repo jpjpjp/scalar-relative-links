@@ -26,22 +26,22 @@ And here is a link to the same image using HTML, ie:
 
 ### Absolute links
 
-Absolute links do seem to work, but the tightly couple the project to a particular URL
+Absolute links to images do seem to work, but I could not figure out how to do it by referencing the scalar project, only by referencing the github URL.
 
 ```md
-![Copy Data](https://raw.githubusercontent.com/jpjpjp/lm-v2-dev-portal-poc/refs/heads/main/images/CopyCategoriesAndTags.jpg)
+![Copy Data](https://github.com/jpjpjp/scalar-relative-links/blob/main/images/CopyCategoriesAndTags.png?raw=true)
 ```
-![Copy Data](https://raw.githubusercontent.com/jpjpjp/lm-v2-dev-portal-poc/refs/heads/main/images/CopyCategoriesAndTags.jpg)
+![Copy Data](https://github.com/jpjpjp/scalar-relative-links/blob/main/images/CopyCategoriesAndTags.png?raw=true)
 
 And here is a link to the same image using HTML, ie:
 ```html
 <scalar-image
-  src="https://raw.githubusercontent.com/jpjpjp/lm-v2-dev-portal-poc/refs/heads/main/images/CopyCategoriesAndTags.jpg"
-  alt="Copy Categories and Tags">
+  src="https://github.com/jpjpjp/scalar-relative-links/blob/main/images/CopyCategoriesAndTags.png?raw=true"
+  alt="Copy Data">
 </scalar-image>
 ```
 <scalar-image
-  src="https://raw.githubusercontent.com/jpjpjp/lm-v2-dev-portal-poc/refs/heads/main/images/CopyCategoriesAndTags.jpg"
+  src="https://github.com/jpjpjp/scalar-relative-links/blob/main/images/CopyCategoriesAndTags.png?raw=true"
   alt="Copy Categories and Tags">
 </scalar-image>
 
@@ -55,8 +55,12 @@ Clicking on [this relative link to another page](./other-page.md) seems to load 
 
 
 ### Absolute links
+When I modify the link which I got by clicking on the Other Page link in the sidebar after my first publish, it seems to work.
 
-TBD 
+```md
+[Link to another page](https://relative-links.apidocumentation.com/example-docs/other-page)
+```
+[Link to another page](https://relative-links.apidocumentation.com/example-docs/other-page)
 
 ## Questions
 
