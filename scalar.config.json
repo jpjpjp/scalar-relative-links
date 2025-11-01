@@ -1,0 +1,32 @@
+{
+  "$schema": "https://cdn.scalar.com/schema/scalar-config.json",
+  "subdomain": "relative-links",
+  "publishOnMerge": true,
+  "siteMeta": {
+    "title": "Relative Links in Scalar Docs",
+    "description": "Sample project to explore relative links in Scalar docs.",
+  },
+  "guides": [
+    {
+      "name": "Example Docs",
+      "type": "folder",
+      "defaultOpen": false,
+      "sidebar": [
+        {
+          "name": "Main Page",
+          "description": "Main page",
+          "path": "guides/introduction.md",
+          "type": "page"
+        },
+        {
+          "name": "Other Page",
+          "description": "Other page",
+          "path": "guides/other-page.md",
+          "type": "page"
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "siteConfig": {}
+}
